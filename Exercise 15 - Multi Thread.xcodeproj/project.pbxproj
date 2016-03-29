@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		3216DD8F1CAA69300094D2B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DD8E1CAA69300094D2B5 /* main.m */; };
 		3216DD921CAA69300094D2B5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DD911CAA69300094D2B5 /* AppDelegate.m */; };
-		3216DD951CAA69300094D2B5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DD941CAA69300094D2B5 /* ViewController.m */; };
 		3216DD981CAA69300094D2B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3216DD961CAA69300094D2B5 /* Main.storyboard */; };
 		3216DD9A1CAA69300094D2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3216DD991CAA69300094D2B5 /* Assets.xcassets */; };
 		3216DD9D1CAA69300094D2B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3216DD9B1CAA69300094D2B5 /* LaunchScreen.storyboard */; };
+		3216DDA61CAA6C3D0094D2B5 /* BasicBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DDA51CAA6C3D0094D2B5 /* BasicBlockViewController.m */; };
+		3216DDA91CAA6C510094D2B5 /* BasicGCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DDA81CAA6C510094D2B5 /* BasicGCDViewController.m */; };
+		3216DDAC1CAA6C5D0094D2B5 /* ImagesLoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DDAB1CAA6C5D0094D2B5 /* ImagesLoaderViewController.m */; };
+		3216DDAF1CAA81410094D2B5 /* NSArray+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 3216DDAE1CAA81410094D2B5 /* NSArray+Random.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		3216DD8E1CAA69300094D2B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3216DD901CAA69300094D2B5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3216DD911CAA69300094D2B5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3216DD931CAA69300094D2B5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3216DD941CAA69300094D2B5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3216DD971CAA69300094D2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3216DD991CAA69300094D2B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3216DD9C1CAA69300094D2B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3216DD9E1CAA69300094D2B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3216DDA41CAA6C3D0094D2B5 /* BasicBlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicBlockViewController.h; sourceTree = "<group>"; };
+		3216DDA51CAA6C3D0094D2B5 /* BasicBlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicBlockViewController.m; sourceTree = "<group>"; };
+		3216DDA71CAA6C510094D2B5 /* BasicGCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicGCDViewController.h; sourceTree = "<group>"; };
+		3216DDA81CAA6C510094D2B5 /* BasicGCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicGCDViewController.m; sourceTree = "<group>"; };
+		3216DDAA1CAA6C5D0094D2B5 /* ImagesLoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesLoaderViewController.h; sourceTree = "<group>"; };
+		3216DDAB1CAA6C5D0094D2B5 /* ImagesLoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesLoaderViewController.m; sourceTree = "<group>"; };
+		3216DDAD1CAA81410094D2B5 /* NSArray+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Random.h"; sourceTree = "<group>"; };
+		3216DDAE1CAA81410094D2B5 /* NSArray+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Random.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				3216DD901CAA69300094D2B5 /* AppDelegate.h */,
 				3216DD911CAA69300094D2B5 /* AppDelegate.m */,
-				3216DD931CAA69300094D2B5 /* ViewController.h */,
-				3216DD941CAA69300094D2B5 /* ViewController.m */,
+				3216DDA41CAA6C3D0094D2B5 /* BasicBlockViewController.h */,
+				3216DDA51CAA6C3D0094D2B5 /* BasicBlockViewController.m */,
+				3216DDA71CAA6C510094D2B5 /* BasicGCDViewController.h */,
+				3216DDA81CAA6C510094D2B5 /* BasicGCDViewController.m */,
+				3216DDAA1CAA6C5D0094D2B5 /* ImagesLoaderViewController.h */,
+				3216DDAB1CAA6C5D0094D2B5 /* ImagesLoaderViewController.m */,
+				3216DDAD1CAA81410094D2B5 /* NSArray+Random.h */,
+				3216DDAE1CAA81410094D2B5 /* NSArray+Random.m */,
 				3216DD961CAA69300094D2B5 /* Main.storyboard */,
 				3216DD991CAA69300094D2B5 /* Assets.xcassets */,
 				3216DD9B1CAA69300094D2B5 /* LaunchScreen.storyboard */,
@@ -150,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3216DD951CAA69300094D2B5 /* ViewController.m in Sources */,
+				3216DDA61CAA6C3D0094D2B5 /* BasicBlockViewController.m in Sources */,
 				3216DD921CAA69300094D2B5 /* AppDelegate.m in Sources */,
+				3216DDAC1CAA6C5D0094D2B5 /* ImagesLoaderViewController.m in Sources */,
+				3216DDAF1CAA81410094D2B5 /* NSArray+Random.m in Sources */,
+				3216DDA91CAA6C510094D2B5 /* BasicGCDViewController.m in Sources */,
 				3216DD8F1CAA69300094D2B5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

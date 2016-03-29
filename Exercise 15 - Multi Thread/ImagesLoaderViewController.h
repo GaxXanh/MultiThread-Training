@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ImagesLoaderViewController.h
 //  Exercise 15 - Multi Thread
 //
 //  Created by Pham Anh on 3/29/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ImagesLoaderViewController : UIViewController
 
 @end
-
